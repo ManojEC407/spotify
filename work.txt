@@ -1,3 +1,4 @@
 Manager(Developer) 
 Developer 1:Created Navbar
 Developer 2:Work on Cart
+Developer 3(Intern):Add Remove Item Functionality
