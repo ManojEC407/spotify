@@ -13,6 +13,23 @@
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
+
+      <button>Cart <span id="cartItem"></span></button>
     </nav>
+
+
+    <div class="container">
+      <button onclick="AddToCart()">Add to Cart</button>
+    </div>
+
+    <script>
+      let currentItem = 0
+      document.querySelector("#cartItem").textContent = currentItem;
+
+      function AddToCart(){
+        currentItem +=1
+        document.querySelector("#cartItem").textContent = currentItem;
+      }
+    </script>
   </body>
 </html>
