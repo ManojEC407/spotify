@@ -1,0 +1,3 @@
+Manager(Developer) 
+Developer 1:Created Navbar
+Developer 2:Work on Cart
